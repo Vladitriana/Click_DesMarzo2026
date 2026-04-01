@@ -236,7 +236,7 @@
             document.getElementById('res-comision').innerText = formatCurrency(comisionDesembolso);
             document.getElementById('res-seguro-valor').innerText = formatCurrency(valorSeguroMensual);
             document.getElementById('res-total-descuentos').innerText = "Deducciones: -" + formatCurrency(totalDeducciones);
-            document.getElementById('label-seguro-pct').innerText = pctSeguroReal.toFixed(3) + "%";
+            document.getElementById('label-seguro-pct').innerText = pctSeguroReal.toFixed(5) + "%";
 
             const resRef = document.getElementById('res-refinancia');
             if (saldoRefinanciar > 0) {
