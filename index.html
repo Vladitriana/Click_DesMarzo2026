@@ -216,9 +216,9 @@
 
             let gastosBancarios = 0;
             if (monto >= 500000 && monto <= 3000000) gastosBancarios = 69000;
-            else if (monto > 3000000 && monto <= 5000000) gastosBancarios = 97000;
-            else if (monto > 5000000 && monto <= 10000000) gastosBancarios = 138000;
-            else if (monto > 10000000) gastosBancarios = 159000;
+            else if (monto > 3000001 && monto <= 5000000) gastosBancarios = 97000;
+            else if (monto > 5000001 && monto <= 10000000) gastosBancarios = 138000;
+            else if (monto > 10000001) gastosBancarios = 159000;
 
             let comisionDesembolso = 0;
             if (metodoDesembolso === 'efectivo') {
